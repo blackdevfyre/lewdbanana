@@ -19,6 +19,7 @@ nav{
     overflow: hidden;
     background-color: #333;
     position: relative;
+    width: 100%;
 }
 nav #mylinks{
     display: inline-block;
@@ -80,7 +81,7 @@ body, header{
 #maintitle{
     color:#E4B363;
     text-decoration: none;
-    font-size: 5em;
+    font-size: 5rem;
 }
 #maintitle:hover{
     color: #EF6461;
@@ -119,6 +120,9 @@ body, header{
     display:none;
     text-align: center;
 }
+#me-links{
+    width: 100%;
+}
 #me-links li a{
     display: block;
     color: #E4B363;
@@ -137,6 +141,20 @@ body, header{
 @media screen and (max-width:750px) {
     .container{
         display:inline-block;
+    }
+    #maintitle{
+        font-size: 2em;
+    }
+    #me-links{
+        width: 100%;
+    }
+    ul.nav li{
+        float: none;
+        width:100%;
+    }
+    nav a{
+        width: 100%;
+        text-align: center;
     }
 }
 @media screen and (min-width:760px) {
