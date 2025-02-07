@@ -8,7 +8,7 @@ var varworks =document.getElementById("Works");
 var varcontact=document.getElementById("Contact")
 function windowSize(){
     if (window.innerWidth<750){
-        mylinks.style.display="none";
+         mylinks.style.display ="none"
     }else{
         mylinks.style.display ="inline-block";
     }
@@ -16,11 +16,11 @@ function windowSize(){
 windowSize();
 hideworks();
 hidecontact();
-
+window.addEventListener('resize', windowSize);
 function hamburgerfunc(x){
     x.classList.toggle("change")
     if (mylinks.style.display =="inline-block"){
-        mylinks.style.display ="none";;
+        mylinks.style.display ="none";
     }else{
         mylinks.style.display ="inline-block";
     }
