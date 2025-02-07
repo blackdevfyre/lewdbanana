@@ -5,6 +5,10 @@ ul.nav{
     overflow: hidden;
     background-color: #333;
 }
+iframe{
+    position: relative;
+    overflow: hidden;
+}
 .subtitle{
     padding: auto;
 }
@@ -163,6 +167,9 @@ body, header{
         width: 100%;
         float: none;
         text-align: center;
+    }
+    #works{
+        width: 100%;
     }
 }
 @media screen and (min-width:760px) {
