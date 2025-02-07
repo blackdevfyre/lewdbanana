@@ -5,6 +5,16 @@ ul.nav{
     overflow: hidden;
     background-color: #333;
 }
+.subtitle{
+    padding: auto;
+}
+#link1{
+    display: block;
+    color: #E4B363;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 nav{
     overflow: hidden;
     background-color: #333;
