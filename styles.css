@@ -148,12 +148,20 @@ body, header{
     #me-links{
         width: 100%;
     }
+    ul.nav {
+        display: block;
+        width: 100%;
+        text-align: center; /* Add this line */
+    }
     ul.nav li{
+        display: block;
         float: none;
         width:100%;
     }
     nav a{
+        padding: 0;
         width: 100%;
+        float: none;
         text-align: center;
     }
 }
